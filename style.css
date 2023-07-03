@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#taskInput {
+    width: 300px;
+    padding: 5px;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.taskItem input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.taskItem button {
+    margin-left: 10px;
+}
+
+body {
+    text-align: center;
+}
+
+#btnAddTAsk {
+    height: 29px;
+}
+
+#taskInput {
+    width: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: aquamarine;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.container {
+    margin-left: 169px;
+    margin-right: 169px;
+}
+
+.container li button {
+    left: 90%;
+    position: absolute;
+    z-index: 2;
+}
